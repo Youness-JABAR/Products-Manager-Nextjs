@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Products Manager App with Next.js 13
+
+This is a simple Products Manager application built using Next.js 13. It allows you to create and show products.
+
+## Features
+
+- **Next.js 13**: The project is built using the Next.js framework, which offers server-side rendering, static site generation, and dynamic routing. You can learn more about Next.js in the [official documentation](https://nextjs.org/docs).
+
+- **App Router System**: The application uses Next.js' routing system. You can find more information about routing [here](https://nextjs.org/docs/app/building-your-application/routing).
+
+- **Server Actions**: This project leverages the power of server-side rendering (SSR) to fetch data from an external API , enhancing the dynamic capabilities of the application.
+
+- **External API Communication**: The application communicates with external APIs to fetch data. It uses the [mockapi.io](https://mockapi.io/) APIs for demonstration purposes.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Youness-JABAR/Products-Manager-Nextjs.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to http://localhost:3000 to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`npm run dev`: Start the development server.
+`npm run build`: Build the production-ready application.
+`npm start`: Start the production server.
+`npm run lint`: Lint the code using ESLint.
 
-## Learn More
+## Acknowledgments
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks to the Next.js team for providing an excellent framework and documentation.
